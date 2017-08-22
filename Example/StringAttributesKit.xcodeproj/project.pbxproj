@@ -45,6 +45,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		818A1C8D53A34ED52A93B8B1 /* Pods_StringAttributesKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StringAttributesKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB84324E223D17C3B57A9C0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D3B2237C1F4BCB8C00533DAB /* TextAttributesTest.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TextAttributesTest.playground; sourceTree = "<group>"; };
 		F103A786CB176A531F73EC60 /* Pods-StringAttributesKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StringAttributesKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StringAttributesKit_Example/Pods-StringAttributesKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F52EA49580380EB5AF9D8F2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +84,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				D3B2237C1F4BCB8C00533DAB /* TextAttributesTest.playground */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for StringAttributesKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
