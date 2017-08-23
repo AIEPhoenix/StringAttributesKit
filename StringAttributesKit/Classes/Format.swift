@@ -1,9 +1,9 @@
 //
-//  Typography.swift
+//  Format.swift
 //  StringAttributesKit
 //
-//  Created by brian on 2017/8/21.
-//
+//  Created by brian on 2017/8/8.
+//  Copyright © 2017年 AIEPhoenix All rights reserved.
 //
 
 import Foundation
@@ -26,11 +26,11 @@ public enum VerticalGlyphFormStyle: Int {
     case vertical
 }
 
-open class Typography {
+open class Format {
     
     public private(set) var attributes: [String: Any] = [String: Any]()
     
-    public init(initializeClosure: (Typography) -> Void) {
+    public init(initializeClosure: (Format) -> Void) {
         initializeClosure(self)
     }
     
@@ -453,9 +453,5 @@ open class Typography {
     open func removeTabStop(_ anObject: NSTextTab) {
         mutableParagraphStyle.removeTabStop(anObject)
     }
-    
-}
-
-public extension Typography {
     
 }

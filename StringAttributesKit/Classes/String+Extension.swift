@@ -2,15 +2,15 @@
 //  String+Extension.swift
 //  StringAttributesKit
 //
-//  Created by brian on 2017/8/22.
-//
+//  Created by brian on 2017/8/8.
+//  Copyright © 2017年 AIEPhoenix All rights reserved.
 //
 
 import Foundation
 
 public extension String {
     
-    public func set(typography: Typography, range: Range<Int>? = nil) -> NSMutableAttributedString {
+    public func set(typography: Format, range: Range<Int>? = nil) -> NSMutableAttributedString {
         guard let range = range else {
             return NSMutableAttributedString(string: self, attributes: typography.attributes)
         }
@@ -50,4 +50,5 @@ extension String {
         }
         return from ..< to
     }
+    
 }

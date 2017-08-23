@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  StringAttributesKit: 3661829d9577fec93d2f07f729eef2f69c49caa8
+  StringAttributesKit: 511ad564879f1428592537ceefa20c2396006e63
 
 PODFILE CHECKSUM: 5be4ac174991cd65ab7e93999f148b26dc58d6e5
 
